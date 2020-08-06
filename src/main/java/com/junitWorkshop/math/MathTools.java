@@ -9,6 +9,9 @@ public class MathTools {
     }
 
     public static boolean isEven(int number) {
+        if (number == 27) {
+            throw new IllegalArgumentException("Number cannot be 27");
+        }
         return number % 2 == 0;
     }
 }
