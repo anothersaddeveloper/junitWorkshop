@@ -7,4 +7,8 @@ public class MathTools {
         }
         return (double)numerator / (double)denominator;
     }
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
 }
